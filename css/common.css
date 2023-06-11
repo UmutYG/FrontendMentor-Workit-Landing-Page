@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Fraunces;
+    src: url(../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+}
+
+:root {
+    --color-primary400: #24053e;
+    --color-primary300: #584d62;
+    --color-primary100: #fcf8ff;
+    --color-secondary400: #44ffa1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1;
+    color: var(--color-primary400);
+    font-size: 1.8rem;
+    font-family: "Fraunces", serif;
+}
+
+.container {
+    max-width: 110rem;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+a {
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+
+.btn {
+    background-color: var(--color-secondary400);
+    padding: 1.6rem 3.2rem;
+    color: var(--color-primary400);
+    font-weight: 700;
+}
+
+.bordered {
+    border-bottom: 3px solid var(--color-secondary400);
+}
+
+/*
+******* TYPHOGRAPHY *********
+  - Font weights
+ Default: 400
+ Semi-bold: 600
+
+ - Line heights
+    Default: 1
+
+- Letter spacing
+-0.5px
+ */
+
+/* COLORS */
+/* in :root */
+
+/* IMAGES */
+
+/* ICONS */
+
+/* BORDER RADIUS 
+ - Default: ?px
+ */
+
+/* BOX SHADOW */
+
+/* WHITESPACES
+ 
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
