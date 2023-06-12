@@ -27,8 +27,11 @@
     margin-bottom: 6.4rem;
 }
 
-.nav-link {
+.nav-link:link, .nav-link:visited {
     padding-bottom: 4px;
+}
+.nav-link:hover, .nav-link:active {
+    color: var(--color-secondary400);
 }
 
 .hero {
@@ -125,10 +128,67 @@
     font-size: 3.2rem;
     font-weight: 600;
     margin-bottom: 2.8rem;
+    text-align: center;
 }
 
 .feature-description {
     text-align: center;
     font-family: 'Manrope', sans-serif;
     line-height: 1.8;
+}
+
+
+/* FOUNDER */
+.section-cta {
+    padding-top: 24rem;
+}
+.container--section-cta {
+    position: relative;
+
+}
+
+.founder-img {
+    width: 45%;
+}
+
+.cta-container {
+    background-color: var(--color-primary400);
+    padding: 6.4rem;
+    width: 65%;
+    color: #fff;
+    margin-left: auto;
+    transform: translateY(-80%);
+}
+
+.heading-cta {
+    font-size: 5.6rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+
+.cta-description {
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+    font-family: "Manropa", sans-serif;
+}
+
+/* FOOTER */
+
+.footer {
+   position: relative;
+   top: -12rem;
+}
+
+.container--footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.6rem;
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 2.8rem;
 }
