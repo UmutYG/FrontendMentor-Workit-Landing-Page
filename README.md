@@ -9,7 +9,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/bmi-calculator-page-using-css-grid-UsL4ZqSbJT)
-- Live Site URL: [Add live site URL here](https://umutyg.github.io/Frontendmentor-BMI-Calculator/)
+- Live Site URL: [https://umutyg.github.io/FrontendMentor-Workit-Landing-Page/](https://umutyg.github.io/FrontendMentor-Workit-Landing-Page/)
 
 ## Author
 
