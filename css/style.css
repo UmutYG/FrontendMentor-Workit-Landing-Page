@@ -23,7 +23,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin-bottom: 6.4rem;
 }
 
@@ -85,6 +84,7 @@
 
 .section-features {
     position: relative;
+    padding-top: 6.4rem;
 }
 
 .section-features::before {
@@ -144,7 +144,6 @@
 }
 .container--section-cta {
     position: relative;
-
 }
 
 .founder-img {

@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
+    .section-features::before {
+        left: 50%;
+        transform: translate(-50%, -5%) scale(2);
+        height: 45rem;
+    }
     .feature-box {
         grid-template-columns: 1fr;
         margin-top: 5.6rem;
@@ -6,7 +11,7 @@
 
     .feature {
         display: grid;
-        grid-template-columns: auto 1fr; 
+        grid-template-columns: auto 1fr;
         row-gap: 1.6rem;
         column-gap: 3.2rem;
         margin-bottom: 4.8rem;
@@ -29,7 +34,6 @@
         grid-row: 2;
         grid-column: 2 / 3;
         text-align: left;
-
     }
 
     /* CTA-FOUNDER */
@@ -44,11 +48,96 @@
         font-size: 4.8rem;
         margin-bottom: 2.4;
     }
-    
+
     .cta-description {
         font-size: 1.6rem;
         margin-bottom: 2.4rem;
-        font-family: "Manropa", sans-serif;
+        font-family: 'Manropa', sans-serif;
     }
-    
+}
+
+@media (max-width: 375px) {
+    .header {
+        padding: 1.6rem 3.2rem;
+    }
+
+    .header::before {
+        left: 50%;
+        width: 100%;
+        height: 30rem;
+        transform: translateX(-50%) scale(2);
+
+        z-index: -1;
+    }
+
+    .heading-hero {
+        font-size: 4.2rem;
+    }
+
+    .pattern--1,
+    .pattern--2 {
+        display: none;
+    }
+
+    /* FEATURES */
+    .section-features::before {
+        left: 50%;
+        transform: translate(-50%, 50%) scale(3);
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .feature-heading {
+        text-align: center;
+        margin-bottom: 1.6rem;
+    }
+
+    .feature-number {
+        margin-bottom: 2.4rem;
+    }
+
+    .feature-description {
+        grid-row: 2;
+        grid-column: 2 / 3;
+        text-align: center;
+    }
+
+    /* CTA-FOUNDER */
+
+    .container {
+        padding: 0 1.6rem;
+    }
+
+    .founder-img {
+        width: 100%;
+    }
+
+    .cta-container {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-10%);
+        width: 100%;
+        padding: 3.2rem;
+    }
+
+    .heading-cta {
+        font-size: 3.2rem;
+        margin-bottom: 2.4;
+    }
+
+    .cta-description {
+        font-size: 1.6rem;
+        margin-bottom: 2.4rem;
+        text-align: center;
+    }
+
+    .footer {
+        top: 0;
+        padding-bottom: 6.4rem;
+    }
 }
