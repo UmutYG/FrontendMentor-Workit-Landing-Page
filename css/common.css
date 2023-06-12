@@ -10,7 +10,7 @@
 
 :root {
     --color-primary400: #24053e;
-    --color-primary300: #584d62;
+    --color-border: #584d62;
     --color-primary100: #fcf8ff;
     --color-secondary400: #44ffa1;
 }
@@ -23,6 +23,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -34,7 +35,8 @@ body {
 }
 
 .container {
-    max-width: 110rem;
+    max-width: 110.4rem;
+    margin: 0 auto;
 }
 
 .text-bold {
