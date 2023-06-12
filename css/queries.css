@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    .feature-box {
+        grid-template-columns: 1fr;
+        margin-top: 5.6rem;
+    }
+
+    .feature {
+        display: grid;
+        grid-template-columns: auto 1fr; 
+        row-gap: 1.6rem;
+        column-gap: 3.2rem;
+        margin-bottom: 4.8rem;
+    }
+
+    .feature-heading {
+        grid-row: 1;
+        grid-column: 2 / 3;
+        text-align: left;
+        margin: 0;
+    }
+
+    .feature-number {
+        grid-row: 2;
+        grid-column: 1 / 2;
+        margin: 0;
+    }
+
+    .feature-description {
+        grid-row: 2;
+        grid-column: 2 / 3;
+        text-align: left;
+
+    }
+
+    /* CTA-FOUNDER */
+
+    .cta-container {
+        padding: 4.8rem 5.6rem;
+        width: 75%;
+        transform: translateY(-40%);
+    }
+
+    .heading-cta {
+        font-size: 4.8rem;
+        margin-bottom: 2.4;
+    }
+    
+    .cta-description {
+        font-size: 1.6rem;
+        margin-bottom: 2.4rem;
+        font-family: "Manropa", sans-serif;
+    }
+    
+}
